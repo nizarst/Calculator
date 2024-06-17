@@ -9,4 +9,4 @@ class OperationResponse(OperationBase):
     result: float
 
     class Config:
-        from_attributes = True  # Updated from 'orm_mode'
+        from_attributes = True 
